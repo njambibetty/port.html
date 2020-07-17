@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://s.abcnews.com/images/GMA/190522_gma_digital_CelaiWest_hpMain_16x9_992.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+ul{
+	float: right;
+	list-style-type: lower-norwegian;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: #3CB371;
+	color: #000;
+}
+ul li a .active{
+	background-color: #fff;
+	color: #000;
+}
+.name{
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	list-style-type: upper-norwegian;
+	padding: 4px;
+	color: #A9A9A9;
+}
+.onclick{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.onclick h1{
+	color: #fff;
+	font-size: 60px;
+}
+.bee{
+	border: 1px solid #fff;
+	padding: 30px 50px;
+	color: #fff;
+	text-decoration: none;
+}
+.bee:hover{
+	background-color: #f4c2c2;
+	color: #000;
+}
